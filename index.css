@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.regi-box{
+    
+      height: 100vh;
+      width: auto;
+      display: flex ;
+      justify-content: center;  /* horizontal center */
+      align-items: center;      /* vertical center */
+     
+      font-family: "Teko", sans-serif;
+      
+      border-radius: 2px ;
+}
+.form-box{
+    background-color: aqua;
+    margin: 20px;
+    padding: 24px;
+    border-radius: 10px;
+    
+}
+input{
+    border: none;
+    padding: 10px;
+    border-radius: 12px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    margin-left: 80px;
+}
+
+button{
+   border: none;
+    padding: 10px;
+    border-radius: 12px;
+    margin-top: 8px;
+    margin-left: 300px;
+    transition: background-color 0.3s ease, transform 0.3s ease
+}
+button:hover{
+   background-color: red;
+   color: white;
+   
+}
+
